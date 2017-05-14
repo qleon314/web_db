@@ -1,0 +1,74 @@
+
+.popup {
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -400px 0 0 -500px;
+    display: none;
+}
+
+select.sel {
+    min-width: 200px;
+    min-height: 100px;
+    position: relative;
+}
+
+select#s1 {
+    min-height: 200px;
+}
+
+select#s2 {
+    min-height: 200px;
+}
+
+table#main {
+    width: 75%;
+    background-color: #EEEEEE;
+    border: 1px solid slategray;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table#main tr td {
+    border: 1px solid slategray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#ConstraintPopup {
+    display: none;
+    z-index: 1;
+    background-color: bisque;
+    bottom: 10%;
+    left: 40%;
+    position: absolute;
+}
+
+div#dlg {
+    display: none;
+    background-color: #E5EECC;
+    width: 98%;
+    position: absolute;
+}
+
+button#b17 {
+    bottom: 0;
+    right: 0;
+    position: absolute
+}
+
+.bt {
+    height: 40px;
+}
+
+.bt2 {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(66, 184, 221);
+    width: 120px;
+    height: 30px;
+}
